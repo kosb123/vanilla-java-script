@@ -16,9 +16,7 @@ function Dday() {
         day < 10 ? `0${day}` : day}d ${
         hours < 10 ? `0${hours}` : hours}h ${
         minute < 10 ? `0${minute}` : minute}m ${
-        seconds < 10 ? `0${seconds}` : seconds}s ${
-        ms
-        }ms`
+        seconds < 10 ? `0${seconds}` : seconds}s `
 }
 function start() {
     Dday();
